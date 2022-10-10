@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@700&display=swap');
+
 :root {
     --bg: #333;
     --fg-title: #fff;
     --fg-main: #ddd;
 }
+
 h1 {
     color: var(--fg-title);
     font-family: 'Work Sans', sans-serif;
 }
+
 * {
     color: var(--fg-main);
     font-family: 'Open Sans', sans-serif;
 }
+
 html {
     background: var(--bg);
 }
+
 body {
     margin: 10% 20%;
 }
