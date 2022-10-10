@@ -3,16 +3,14 @@
     --bg: #333;
     --fg-title: #fff;
     --fg-main: #ddd;
-    --font-title: 'Work Sans', sans-serif;
-    --font-main: 'Open Sans', sans-serif;
 }
 h1 {
     color: var(--fg-title);
-    font-family: var(--font-title);
+    font-family: 'Work Sans', sans-serif;
 }
 * {
     color: var(--fg-main);
-    font-family: var(--font-main);
+    font-family: 'Open Sans', sans-serif;
 }
 html {
     background: var(--bg);
