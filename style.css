@@ -1,0 +1,17 @@
+:root {
+    --bg: #333;
+    --fg-title: #fff;
+    --fg-main: #ddd;
+}
+h1 {
+    color: var(--fg-title);
+}
+* {
+    color: var(--fg-main);
+}
+html {
+    background: var(--bg);
+}
+body {
+    margin: 10% 20%;
+}

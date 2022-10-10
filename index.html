@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <script src="js.js"></script>
     <body>
-        <h1>test 1</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+        <h1>JSON File generator</h1>
+        <input placeholder="Mod ID" id="modid">
+        <br>
+        <input placeholder="Block base name" id="blockid">
+        <br>
+        <input type="checkbox" name="full">
+        <label for="full">Full block</label>
+        <br>
+        <input type="checkbox" name="slab">
+        <label for="slab">Slab</label>
+        <br>
+        <input type="checkbox" name="stairs">
+        <label for="stairs">Stairs</label>
+        <br>
+        <button onclick="generate()">Generate</button>
     </body>
 </html>
