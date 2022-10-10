@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@700&display=swap');
 :root {
     --bg: #333;
     --fg-title: #fff;
     --fg-main: #ddd;
+    --font-title: 'Work Sans', sans-serif;
+    --font-main: 'Open Sans', sans-serif;
 }
 h1 {
     color: var(--fg-title);
+    font-family: var(--font-title);
 }
 * {
     color: var(--fg-main);
+    font-family: var(--font-main);
 }
 html {
     background: var(--bg);
